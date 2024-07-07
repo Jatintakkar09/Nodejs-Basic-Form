@@ -2,9 +2,9 @@ import { v2 as cloudinary } from "cloudinary";
 import fs from "fs";
 
 cloudinary.config({ 
-  // cloud_name: 'dosxezkdw', 
-  // api_key: '493288967476844', 
-  // api_secret: '0Nq-WML9bcRBjNCvOL0WcNj6BKI' // Click 'View Credentials' below to copy your API secret
+  cloud_name: 'dosxezkdw', 
+  api_key: '493288967476844', 
+  api_secret: '0Nq-WML9bcRBjNCvOL0WcNj6BKI' // Click 'View Credentials' below to copy your API secret
 });
 
 const UploadOnCloudinary = async (LocalFilePath) => {

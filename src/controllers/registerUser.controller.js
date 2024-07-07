@@ -25,6 +25,8 @@ if (!avatar) {
 console.log(avatar);
 const response= await UploadOnCloudinary(avatar);
 
+console.log(response);
+
 const existedUser=await User.findOne({
     $or : [{MobileNumber},{email}]
 })

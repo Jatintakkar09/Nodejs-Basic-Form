@@ -2,7 +2,7 @@
 
 import { Router } from 'express';
 import { registerUser } from '../controllers/registerUser.controller.js';
-import { upload } from '../middlewares/multer.middleware.js';
+import { upload } from '../db/middlewares/multer.middleware.js';
 
 // import all controllers
 // import SessionController from './app/controllers/SessionController';
